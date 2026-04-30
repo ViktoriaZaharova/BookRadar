@@ -1,0 +1,13 @@
+<svg width="32" height="32" viewBox="0 0 220 220" xmlns="http://www.w3.org/2000/svg">
+
+  <circle cx="110" cy="70" r="8" fill="#16A34A"/>
+
+  <circle cx="110" cy="70" r="25" stroke="#16A34A" stroke-width="4"/>
+  
+  <path d="M60 150 V90 C80 80, 100 90, 110 105 V150 Z"
+        stroke="#0F172A" stroke-width="6" fill="none"/>
+
+  <path d="M160 150 V90 C140 80, 120 90, 110 105 V150 Z"
+        stroke="#0F172A" stroke-width="6" fill="none"/>
+
+</svg>
