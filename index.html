@@ -22,7 +22,7 @@
   <link rel="stylesheet" href="css/media.css">
 </head>
 
-<body>
+<body class="light-theme">
 
   <header>
     <div class="container">
@@ -30,69 +30,134 @@
         <div class="col-12 d-flex align-items-center flex-wrap">
           <a href="index.html" class="logo"><img src="img/logo.svg" alt=""></a>
 
+          <div class="search-wrapper">
+            <form method="post" class="form-search form-search-header">
+              <label>
+                <input type="text" placeholder="Пошук..." name="search">
+              </label>
+              <button type="submit" class="btn btn-accent">Знайти</button>
+            </form>
+
+            <div class="search-result"></div>
+          </div>
+
+          <nav class="nav-menu">
+            <ul class="menu my-ul">
+              <li><a href="#"></a></li>
+              <li><a href="#"></a></li>
+              <li><a href="#"></a></li>
+            </ul>
+          </nav>
           <a href="#" class="btn-theme"></a>
         </div>
       </div>
     </div>
+
+
   </header>
 
-  <main class="home">
+  <main class="home p-80">
     <div class="container">
       <div class="row">
         <div class="col-12 col-lg-7">
-          <h1>Найди книгу дешевле</h1>
+          <h1>Знайди книгу дешевше в Україні</h1>
+          <div class="subtitle">Порівняй ціни, читай відгуки, купуй вигідно</div>
 
-          <form method="post" class="form-search">
-            <label>
-              <input type="text" placeholder="Поиск книги..." name="search">
-            </label>
-            <button type="submit" class="btn btn-accent">Найти</button>
-          </form>
+          <div class="search-wrapper">
+            <form method="post" class="form-search">
+              <label>
+                <input type="text" placeholder="Пошук книги..." name="search">
+              </label>
+              <button type="submit" class="btn btn-accent">Знайти</button>
+            </form>
+
+            <div class="search-result"></div>
+          </div>
+
         </div>
 
         <div class="col-12 col-lg-5">
-          <div class="home-image"></div>
+          <div class="home-image w-100"></div>
         </div>
       </div>
     </div>
   </main>
 
-  <section class="advantages">
+  <section class="popular-category">
     <div class="container">
-
       <div class="row">
         <div class="col-12">
-          <h2>Почему BookRadar?</h2>
+          <h2>Популярні категорії</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-6 col-md-4 mb-20">
+          <a href="#" class="popular-category__item">Дитячі</a>
+        </div>
+        <div class="col-6 col-md-4 mb-20">
+          <a href="#" class="popular-category__item">Бізнес</a>
+        </div>
+        <div class="col-6 col-md-4 mb-20">
+          <a href="#" class="popular-category__item">Психологія</a>
+        </div>
+        <div class="col-6 col-md-4 mb-20">
+          <a href="#" class="popular-category__item">Новинки</a>
+        </div>
+        <div class="col-6 col-md-4 mb-20">
+          <a href="#" class="popular-category__item">Художні</a>
+        </div>
+        <div class="col-6 col-md-4 mb-20">
+          <a href="#" class="popular-category__item">Для школи</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="best-prices m-80">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <h2>Найкращі ціни сьогодні</h2>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="advantages m-80">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <h2>Чому BookRadar?</h2>
         </div>
       </div>
 
       <div class="row">
-        <div class="col-12 col-md-4 mb-16">
+        <div class="col-12 col-md-4 mb-20">
           <div class="advantages-card">
             <div class="advantages-card__icon"><img src="img/advantages-icon1.svg" alt=""></div>
-            <h3>Сравнение цен</h3>
+            <h3>Порівняння цін</h3>
             <div class="box-text">
-              <p>Мы собираем все магазины</p>
+              <p>Ми збираємо всі магазини</p>
             </div>
           </div>
         </div>
 
-        <div class="col-12 col-md-4 mb-16">
+        <div class="col-12 col-md-4 mb-20">
           <div class="advantages-card">
             <div class="advantages-card__icon"><img src="img/advantages-icon2.svg" alt=""></div>
-            <h3>Умный поиск</h3>
+            <h3>Розумний пошук</h3>
             <div class="box-text">
-              <p>Умный поиск</p>
+              <p>Розумний пошук</p>
             </div>
           </div>
         </div>
 
-        <div class="col-12 col-md-4 mb-16">
+        <div class="col-12 col-md-4 mb-20">
           <div class="advantages-card">
             <div class="advantages-card__icon"><img src="img/advantages-icon3.svg" alt=""></div>
-            <h3>Выгода</h3>
+            <h3>Вигода</h3>
             <div class="box-text">
-              <p>Всегда дешевле</p>
+              <p>Завжди дешевше</p>
             </div>
           </div>
         </div>
@@ -100,29 +165,16 @@
     </div>
   </section>
 
-  <section class="">
+  <section class="new-reviews m-80">
     <div class="container">
       <div class="row">
-
+        <div class="col-12">
+          <h2>Нові огляди</h2>
+        </div>
       </div>
     </div>
   </section>
 
-  <section class="">
-    <div class="container">
-      <div class="row">
-
-      </div>
-    </div>
-  </section>
-
-  <section class="">
-    <div class="container">
-      <div class="row">
-
-      </div>
-    </div>
-  </section>
 
   <footer>
     <div class="container">
